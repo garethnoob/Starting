@@ -45,6 +45,8 @@ h1, h2 {
     text-align: center;
 }
 
+/* colors section */
+
 .yellow-orange {
     background-color: #fa830c;
 }
@@ -76,12 +78,11 @@ h1, h2 {
 }
 
 
-/* Fonts section */
-
 .text-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
+    grid-gap: 0.5em;
 }
 
 /* Text styles */
@@ -96,4 +97,22 @@ h1, h2 {
 
 .bold {
     font-weight: bold;
+}
+
+/* fonts section */
+
+.montserrat {
+    font-family: "Montserrat";
+}
+
+.mukta {
+    font-family: "Mukta";
+}
+
+.roboto {
+    font-family: "Roboto";
+}
+
+.rubik {
+    font-family: "Rubik";
 }
