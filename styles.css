@@ -1,6 +1,6 @@
 * {
-    box-sizing: border-box;
-    /* border: 1px solid; */
+	box-sizing: border-box;
+	/* border: 1px solid; */
 }
 
 /* colors 
@@ -12,107 +12,107 @@
 */
 
 body {
-    margin: 0 10%;
-    margin-top: 5%;
+	margin: 0 10%;
+	margin-top: 5%;
 }
 
-h1, h2 {
-    font-weight: bold;
-    padding: 5px;
+h1,
+h2 {
+	font-weight: bold;
+	padding: 5px;
 }
 
 .container {
-    border: 1px solid ;
-    padding: 10px;
-    margin: 10px;
+	border: 1px solid;
+	padding: 10px;
+	margin: 10px;
 }
 
 .color-container {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-evenly;
-    font-size: 1.25em;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-evenly;
+	font-size: 1.25em;
 }
 
 .color-panel {
-    min-height: 50px;
-    border: 1px solid;
-    margin: 10px auto;
-    padding: 5px;
-    flex-basis: 32%;
-    text-align: center;
+	min-height: 50px;
+	border: 1px solid;
+	margin: 10px auto;
+	padding: 5px;
+	flex-basis: 32%;
+	text-align: center;
 }
 
 /* colors section */
 
 .yellow-orange {
-    background-color: #fa830c;
+	background-color: #fa830c;
 }
 
 .star-command-blue {
-    background-color: #2274a5ff
+	background-color: #2274a5ff;
 }
 
 .alice-blue {
-    background-color: #e9f1f7ff;
+	background-color: #e9f1f7ff;
 }
 
 .violet-ryb {
-    background-color: #791e94ff;
+	background-color: #791e94ff;
 }
 
 .maximum-green {
-    background-color: #548c2f;
+	background-color: #548c2f;
 }
 
 .color-label {
-    text-align: center;
-    text-transform: capitalize;
+	text-align: center;
+	text-transform: capitalize;
 }
 
 .color-hex {
-    text-align: center;
-    text-transform: uppercase;
+	text-align: center;
+	text-transform: uppercase;
 }
 
-
 .text-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-gap: 0.5em;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	grid-gap: 0.5em;
 }
 
 /* Text styles */
 
 .title {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 .italic {
-    font-style: italic;
+	font-style: italic;
 }
 
 .bold {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 /* fonts section */
 
 .montserrat {
-    font-family: "Montserrat";
+	font-family: "Montserrat";
 }
 
 .mukta {
-    font-family: "Mukta";
+	font-family: "Mukta";
 }
 
 .roboto {
-    font-family: "Roboto";
+	font-family: "Roboto";
 }
 
 .rubik {
-    font-family: "Rubik";
+	font-family: "Rubik";
 }
