@@ -116,3 +116,14 @@ h2 {
 .rubik {
 	font-family: "Rubik";
 }
+
+/* text Style section */
+
+#heading {
+	font-family: Montserrat;
+	font-size: 26px;
+}
+
+ul {
+	font-family: "Roboto";
+}
