@@ -12,8 +12,7 @@
 */
 
 body {
-	margin: 0 10%;
-	margin-top: 5%;
+	margin: 0% 10%;
 }
 
 h1,
@@ -124,6 +123,17 @@ h2 {
 	font-size: 26px;
 }
 
-ul {
+.list {
+	font-family: "Roboto";
+}
+
+
+.sub-heading {
+	font-family: "Mukta";
+	font-weight: bold;
+}
+
+.paragraph {
+	font-size: 14px;
 	font-family: "Roboto";
 }
